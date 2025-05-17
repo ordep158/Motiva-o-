@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Histórias de Amor | Blog Romântico</title>
+  <style>
+    /* Reset básico */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fff0f6;
+      color: #4a2c3a;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f9c5d1, #d46a6a);
+      color: white;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(212, 106, 106, 0.5);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      user-select: none;
+      font-fam    }
+}
+
+    main {
+      flex: 1;
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    main h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #ad3359;
+      border-bottom: 3px solid #f9c5d1;
+      padding-bottom: 0.3rem;
+      font-family: 'Georgia', serif;
+}
+
+    .story-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 2rem;
+    }
+    
+    article.story-card {
+          background: white;
+      border-radius: 16px;
+      padding: 1.8rem 2rem;
+      box-shadow: 0 8px 20px rgba(212, 106, 106, 0.15);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      font-family: 'Georgia', serif;
+    }
+
+    article.story-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 30px rgba(212, 106, 106, 0.3);
+    }
+
+    article.story-card h3 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #ad3359;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    article.story-card p {
+      flex-grow: 1;
+      color: #6b3a4a;
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+    }
+
+    article.story-card a.read-more {
+      align-self: flex-start;
+      padding: 0.6rem 1.3rem;
+      background-color: #ad3359;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 5px 15px rgba(173, 51, 89, 0.4);
+      transition: background-color 0.3s ease;
+      font-family: 'Georgia', serif;
+}
+
+    article.story-card a.read-more:hover {
+    background-color: #d46a6a;
+    }
+
+        footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #7a4c5c;
+      font-size: 0.9rem;
+      background-color: #fff0f6;
+      margin-top: 3rem;
+      user-select: none;
+      font-family: 'Georgia', serif;
+}
+
+    @media (max-width: 480px) {
+      main {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Motivação 
+  </header>
+
+  <main>
+    <h2>Ela Sonhou, Lutou e Conquistou</h2>
+    <section class="story-list">
+      <article class="story-card" tabindex="0">
+        <h3>Com coragem e amor, ela conquistou seus sonhos</h3>
+        <p>Ela sonhou alto e enfrentou desafios com coragem. Com o apoio de um amor verdadeiro, transformou seus sonhos em realidade. Mas essa conquista foi só o começo de uma nova e emocionante jornada. Cada vitória abriu portas para sonhos ainda maiores, e cada desafio que parecia impossível se tornou uma oportunidade de crescer e aprender. O caminho à frente era incerto, cheio de surpresas e escolhas que exigiam ainda mais força e confiança. Porém, com o coração cheio de esperança e a certeza de que nunca estaria sozinha, ela se lançou para o desconhecido, pronta para viver a vida que sempre desejou — porque agora, sabia que o melhor ainda estava por vir.</p>
+        <a href="historia1.html" class="read-more" aria-label="Ler a história O Encontro Sob a Chuva">Ler mais</a>
+      </article>
+
+      <article class="story-card" tabindex="0">
+        <h3>Cartas Nunca Enviadas</h3>
+        <p>“Palavras guardadas no silêncio do coração são como sementes lançadas ao universo, esperando o momento certo para florescer e transformar sonhos em conquistas. Há uma força invisível que age quando menos esperamos, conectando desejos e oportunidades de formas que nem imaginamos. O segredo está em manter a fé e a paciência, mesmo quando tudo parece parado. Porque quando o tempo certo chegar, o que parecia silêncio vai se tornar a mais poderosa ação — e aí, a verdadeira transformação começará. Mas até lá, o mistério continua...</p>       
+        <a href="historia2.html" class="read-more" aria-label="Ler a história Cartas Nunca Enviadas">Ler mais</a>
+      </article>
+
+      <article class="story-card" tabindex="0">
+        <h3>A Garota Que Transformou Desejos em Conquistas</h3>
+        <p>Ela acreditou no impossível, transformou seus desejos em metas claras, e enfrentou cada desafio com coragem e paixão. Mesmo quando a dúvida ameaçava tomar conta, ela seguiu firme, sabendo que cada passo a aproximava do seu sonho. Com determinação no olhar e um coração cheio de esperança, ela fez de cada conquista uma vitória não só para si, mas para todos que acreditaram nela. Essa é a história de uma garota que não só sonhou, mas viveu intensamente cada momento da sua jornada, provando que o verdadeiro poder está em nunca desistir.</p>
+        <a href="historia3.html" class="read-more" aria-label="Ler a história Dois Destinos, Um Caminho">Ler mais</a>
+      </article>
+    </section>
+      </main>
+      
+  <footer>
+    © 2025 — Todos os direitos reservados.
+  </footer>
